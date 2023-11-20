@@ -49,7 +49,7 @@ table {
 *{
     font-family: 'Noto Sans KR', sans-serif;
     /* transition: all 0.7s; */
-     scroll-behavior: smooth;
+     /* scroll-behavior: smooth; */
 }
 .autoplay-progress svg{
     display: none;
@@ -76,6 +76,7 @@ header{
     align-items: center;
     position: relative;
     z-index: 99999;
+    background-color: #fff;
     transition: all 0.7s;
 }
 header .change{
@@ -666,7 +667,6 @@ header a i{
     margin: auto;
     padding: 28px 20px;
     box-sizing: border-box;
-    opacity: 0;
 }
 .sub-snav .inner .top{
     width: 800px;
@@ -742,7 +742,6 @@ header a i{
     margin: auto;
     padding: 28px 0;
     box-sizing: border-box;
-    opacity: 0;
 }
 
 .sub-onav .inner .top{
@@ -854,7 +853,6 @@ header a i{
     margin: auto;
     padding: 28px 20px;
     box-sizing: border-box;
-    opacity: 0;
 }
 .sub-nnav .inner .top ul{
     position: relative;
@@ -919,7 +917,6 @@ header a i{
     box-sizing: border-box;
     display: flex;
     justify-content: space-evenly;
-    opacity: 0;
 }
 .sub-cnav .inner .mario,.kirby,.splat{
     width: 230px;
@@ -962,7 +959,6 @@ header a i{
     margin: auto;
     padding: 28px 20px;
     box-sizing: border-box;
-    opacity: 0;
 }
 .sub-gnav .inner .top ul{
     display: flex;
@@ -1015,7 +1011,6 @@ header a i{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    opacity: 0;
 }
 
 .sub-dnav .inner a{
@@ -1047,7 +1042,6 @@ header a i{
     border:1px solid #ccc;
     display: flex;
     align-items: center;
-    opacity: 0;
 }
 .sub-bnav .inner img:nth-child(1){
     width: 15px;
